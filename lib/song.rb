@@ -19,13 +19,13 @@ class Song
     @@count
   end
 
-  def artist=(artist)
-    if @@artists.detect {|i| i==artist} == nil
-      @@artists<<artist
-    else
-      @@artists[artist]+=1
-    end
-  end
+  # def artist=(artist)
+  #   if @@artists.detect {|i| i==artist} == nil
+  #     @@artists<<artist
+  #   else
+  #     @@artists[artist]+=1
+  #   end
+  # end
 
   def artists
     x=[]
