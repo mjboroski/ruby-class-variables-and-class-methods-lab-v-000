@@ -27,13 +27,13 @@ class Song
   #   end
   # end
 
-  def artists
-    x=[]
-    @@artists.each do |y|
-      x<<y
-    end
-    return x
-  end
+  # def artists
+  #   x=[]
+  #   @@artists.each do |y|
+  #     x<<y
+  #   end
+  #   return x
+  # end
 
   def genres
     @@genres
