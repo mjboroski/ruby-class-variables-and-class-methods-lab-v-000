@@ -17,7 +17,8 @@ class Song
   def artist=(artist)
     if @@artists.detect {|i| i==artist} == nil
       @@artists<<artist
-    else @@artists[artist]+=1
+    else 
+      @@artists[artist]+=1
     end
   end
 end
