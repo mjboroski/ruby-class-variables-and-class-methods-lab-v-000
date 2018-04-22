@@ -6,7 +6,7 @@ class Song
 
   attr_accessor :name, :artist,:genre
 
-  initialize()
+  initialize
     @@count+=1
   end
 
@@ -16,7 +16,7 @@ class Song
 
   def artist=(artist)
      if @@artists.detect {|i| i==artist} == nil
-      @@artists<<artist 
+      @@artists<<artist
     else @@artists[artist]+=1
     end
 end
