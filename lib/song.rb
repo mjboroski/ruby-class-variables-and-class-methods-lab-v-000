@@ -28,7 +28,11 @@ class Song
   end
 
   def artists
-    @@artists
+    x=[]
+    @@artists.each do |y|
+      x<<y
+    end
+    return x
   end
 
   def genres
