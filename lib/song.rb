@@ -1,6 +1,6 @@
 class Song
 
-  @@count=0
+  @@count
   @@artists=[]
   @@genres=[]
 
