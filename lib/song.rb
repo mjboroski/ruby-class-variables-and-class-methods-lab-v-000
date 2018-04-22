@@ -24,4 +24,8 @@ class Song
       @@artists[artist]+=1
     end
   end
+
+  def artists
+    @@artists
+  end
 end
