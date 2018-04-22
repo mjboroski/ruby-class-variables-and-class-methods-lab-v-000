@@ -40,7 +40,7 @@ class Song
     @@genres.each do |genre|
       genres_count.genre ? genres_count[genre] += 1 : genres_count[genre] = 1
     end
-    artist_count
+    genres_count
   end
 
 
