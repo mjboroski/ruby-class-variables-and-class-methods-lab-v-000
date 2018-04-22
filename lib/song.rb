@@ -35,8 +35,8 @@ class Song
   #   return x
   # end
 
-  def genres
-    @@genres
-  end
+  # def genres
+  #   @@genres
+  # end
 
 end
