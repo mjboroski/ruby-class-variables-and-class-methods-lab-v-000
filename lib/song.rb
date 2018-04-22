@@ -29,10 +29,7 @@ class Song
       artist_count.artist ? artist_count[artist] += 1 | artist_count[artist] = 1
     end
     artist_count
-  end  
+  end
 
-  # def genres
-  #   @@genres
-  # end
 
 end
