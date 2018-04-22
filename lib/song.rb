@@ -20,7 +20,7 @@ class Song
   end
 
   def artists
-    @@artists.unique
+    @@artists.uniq
   end
   #   x=[]
   #   @@artists.each do |y|
